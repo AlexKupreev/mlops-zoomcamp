@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mlops-zoomcamp"
+version = "0.1.0"
+description = ""
+authors = ["Alexander Kupreyeu"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "*"
+bandit = "*"
+black = "*"
+flake8 = "*"
+mypy = "*"
+pycodestyle = "*"
+pydocstyle = "*"
+pytest = "*"
+yapf = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
