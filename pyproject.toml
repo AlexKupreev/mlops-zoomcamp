@@ -10,6 +10,9 @@ python = "^3.10"
 matplotlib = "^3.9.0"
 seaborn = "^0.13.2"
 
+[tool.poetry.group.dev]
+optional = true
+
 [tool.poetry.group.dev.dependencies]
 autopep8 = "*"
 bandit = "*"
@@ -20,7 +23,6 @@ pycodestyle = "*"
 pydocstyle = "*"
 pytest = "*"
 yapf = "*"
-
 
 [tool.poetry.group.mlsvc.dependencies]
 jupyter = "^1.0.0"

@@ -1,6 +1,15 @@
 # mlops-zoomcamp
 
+## Set up dev env (local machine)
+
+* `poetry shell`
+* `poetry install --with  mlsvc dev`
+* download data from https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+
 ## Set up dev env (GH codespaces)
+
+**NB! It does not work well in free GH devcontainer because of kernel crashes.**
 
 * Confirm rebuilding the image (as of `devcontainer.json`)
 * `poetry shell`
